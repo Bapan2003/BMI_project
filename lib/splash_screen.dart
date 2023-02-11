@@ -21,12 +21,15 @@ class _splash_screenState extends State<splash_screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.blue,
+        color: Colors.purple.shade500,
+        // child: Center(
+        //   child: Image.asset('assets/images/bmi_logo.png'),
+        // ),
         child: Center(child: Text('BMI',style: TextStyle(
             color: Colors.white60,
             fontWeight: FontWeight.w700,
             fontSize: 100,
-            fontFamily: 'Raleway',
+            fontStyle: FontStyle.italic,
         ),)),
       ),
     );
