@@ -21,7 +21,7 @@ class _splash_screenState extends State<splash_screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.purple.shade500,
+        color: Colors.deepPurple,
         // child: Center(
         //   child: Image.asset('assets/images/bmi_logo.png'),
         // ),
